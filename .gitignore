@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.npm-cache/
+.headless-check/
+*.tgz
+.DS_Store

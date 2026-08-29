@@ -1,0 +1,36 @@
+{
+  "name": "dsh-whale-widget-albus",
+  "version": "0.3.0",
+  "description": "DSH Web 界面右下角的会话 Token 计数小鲸鱼挂件（本会话/全部会话 Token 总量与入/出/缓/推明细、每轮消耗统计、随机台词与音效）—— 基于 MeteorNOX/DeepSeek-Balance-Whale-Widget 的本地改造版",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "token",
+    "widget",
+    "session"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "author": "dsh-whale-widget-albus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albusriddle/dsh-whale-widget-albus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Albusriddle/dsh-whale-widget-albus/issues"
+  },
+  "homepage": "https://github.com/Albusriddle/dsh-whale-widget-albus#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
